@@ -7,34 +7,44 @@ export default function Footer() {
                     <div className="row">
                         <div className="col-lg-3 col-sm-6 sm-padding">
                             <div className="widget-content">
-                                <a href="#"><img src="img/logo-light.png" alt="brand" /></a>
-                                <p>Building your own home is about desire, fantasy. But it’s achievable anyone can do it.</p>
+                                <a href="#"><img src="/img/logo-light.png" alt="brand" /></a>
+                                <p>Strong foundations, <br />for a strong future</p>
                             </div>
                         </div>
                         <div className="col-lg-2 col-sm-6 sm-padding">
                             <div className="widget-content">
                                 <h4>Company</h4>
                                 <ul className="widget-links">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Our Services</a></li>
-                                    <li><a href="#">Clients Reviews</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="/about">About Us</a></li>
+                                    <li><a href="/services">Our Services</a></li>
+                                    <li><a href="/products">Products</a></li>
+                                    <li><a href="/contact">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-6 sm-padding">
                             <div className="widget-content">
                                 <h4>Headquaters</h4>
-                                <p>962 Fifth Avenue, 3rd Floor New York, NY10022</p>
-                                <span><a href="http://html.dynamiclayers.net/cdn-cgi/l/email-protection" className="__cf_email__"
-                                    data-cfemail="a8e0cdc4c4c7e8e9c4cdd0c9fcc0cdc5cd86c6cddc">[email&#160;protected]</a></span>
-                                <span>(+123) 456 789 101</span>
+                                <p>Plot No. 1, Survey No. 142/1, Budasan, Taluka-Kadi, Distt. Mehsana, Gujarat-382715</p>
+                                <span>
+                                    <a href = "mailto: vmgshutteringstore@gmail.com">vmgshutteringstore@gmail.com</a>
+                                </span>
+                                <span>
+                                    <a href="tel:+91-8799067836">
+                                        +91 87990 67836
+                                    </a>
+                                </span>
+                                <span>
+                                    <a href="tel:+91-8799079659">
+                                        +91 87990 79659
+                                    </a>
+                                </span>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6 sm-padding">
                             <div className="widget-content">
                                 <h4>Newslatter Subscription</h4>
-                                <p>Subscribe and get 10% off from our <br />architecture company.</p>
+                                <p>Subscribe to get the latest news.</p>
                                 <div className="subscribe-box clearfix">
                                     <div className="subscribe-form-wrap">
                                         <form action="#" className="subscribe-form">
@@ -53,11 +63,6 @@ export default function Footer() {
                     </div>
                 </div>
             </section>
-            <footer className="footer-section align-center">
-                <div className="container">
-                    <p><a href="templateshub.net">Templates Hub</a></p>
-                </div>
-            </footer>
         </>
     )
 }

@@ -35,28 +35,28 @@ export default function SponsorCarousel() {
       <div className="container">
         <div id="sponsor-carousel" className="sponsor-carousel owl-carousel">
           <div className="sponsor-item">
-            <img src="img/sponsor1.png" alt="sponsor" />
+            <img src="/img/sponsor1.png" alt="sponsor" />
           </div>
           <div className="sponsor-item">
-            <img src="img/sponsor2.png" alt="sponsor" />
+            <img src="/img/sponsor2.png" alt="sponsor" />
           </div>
           <div className="sponsor-item">
-            <img src="img/sponsor3.png" alt="sponsor" />
+            <img src="/img/sponsor3.png" alt="sponsor" />
           </div>
           <div className="sponsor-item">
-            <img src="img/sponsor4.png" alt="sponsor" />
+            <img src="/img/sponsor4.png" alt="sponsor" />
           </div>
           <div className="sponsor-item">
-            <img src="img/sponsor5.png" alt="sponsor" />
+            <img src="/img/sponsor5.png" alt="sponsor" />
           </div>
           <div className="sponsor-item">
-            <img src="img/sponsor6.png" alt="sponsor" />
+            <img src="/img/sponsor6.png" alt="sponsor" />
           </div>
           <div className="sponsor-item">
-            <img src="img/sponsor7.png" alt="sponsor" />
+            <img src="/img/sponsor7.png" alt="sponsor" />
           </div>
           <div className="sponsor-item">
-            <img src="img/sponsor8.png" alt="sponsor" />
+            <img src="/img/sponsor8.png" alt="sponsor" />
           </div>
         </div>
       </div>

@@ -43,39 +43,29 @@ export default function Header() {
                     <div className="primary-header-inner">
                         <div className="header-logo">
                             <a href="#">
-                                <h3>Balaji Shutterings</h3>
+                                <h3>VMG Shutterings</h3>
                             </a>
                         </div>
                         <div className="header-menu-wrap">
                             <ul className="dl-menu">
-                                <li><a href="/">Home</a></li>
-                                <li><a href="#">About</a>
-                                    <ul>
-                                        <li><a href="about-us.html">About Us</a></li>
-                                        <li><a href="about-company.html">About Company</a></li>
-                                    </ul>
+                                <li>
+                                    <a href="/">Home</a></li>
+                                <li>
+                                    <a href="/about">About</a>
                                 </li>
-                                <li><a href="#">Services</a>
-                                    <ul>
-                                        <li><a href="services-1.html">Services 01</a></li>
-                                        <li><a href="services-2.html">Services 02</a></li>
-                                    </ul>
+                                <li>
+                                    <a href="/services">Services</a>
                                 </li>
-                                <li><a href="#">Pages</a>
-                                    <ul>
-                                        <li><a href="projects.html">Our Projects</a></li>
-                                        <li><a href="project-single.html">Project Single</a></li>
-                                        <li><a href="team.html">Our Team</a></li>
-                                        <li><a href="testimonial.html">Testimonial</a></li>
-                                        <li><a href="404.html">404 Error</a></li>
-                                    </ul>
+                                <li>
+                                    <a href="/products">Products</a>
                                 </li>
-                                <li><a href="./contact">Contact</a></li>
+                                <li><a href="/contact">Contact</a></li>
                             </ul>
                         </div>
                         <div className="header-right">
-                            <a className="menu-btn" href="#">Request a Quote</a>
-
+                            <a className="menu-btn" href="/contact">
+                                Request a Quote
+                            </a>
                             <div className="mobile-menu-icon">
                                 <div className="burger-menu">
                                     <div className="line-menu line-half first-line"></div>

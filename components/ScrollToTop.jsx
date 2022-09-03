@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 export default function ScrollToTop() {
   useEffect(() => {
-    $(window).on( 'scroll', function () {
+    $(window).on('scroll', function () {
         if ($(this).scrollTop() > 100) {
             $('#scroll-to-top').fadeIn();
         } else {
@@ -12,7 +12,13 @@ export default function ScrollToTop() {
   }, []);
 
   return (
-    <a data-scroll href="#header" id="scroll-to-top">
+    <a data-scroll id="scroll-to-top" onClick={() => {
+      window.scroll({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth' 
+       });
+    }}>
       <i className="arrow_carrot-up"></i>
     </a>
   )

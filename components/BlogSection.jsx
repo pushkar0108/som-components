@@ -11,7 +11,7 @@ export default function BlogSection() {
             <div className="col-lg-4 col-sm-6 sm-padding">
               <div className="blog-item box-shadow">
                 <div className="blog-thumb">
-                  <img src="img/post-1.jpg" alt="post" />
+                  <img src="/img/post-1.jpg" alt="post" />
                   <span className="category"><a href="#">interior</a></span>
                 </div>
                 <div className="blog-content">
@@ -25,7 +25,7 @@ export default function BlogSection() {
             <div className="col-lg-4 col-sm-6 sm-padding">
               <div className="blog-item box-shadow">
                 <div className="blog-thumb">
-                  <img src="img/post-2.jpg" alt="post" />
+                  <img src="/img/post-2.jpg" alt="post" />
                   <span className="category"><a href="#">Architecture</a></span>
                 </div>
                 <div className="blog-content">
@@ -39,7 +39,7 @@ export default function BlogSection() {
             <div className="col-lg-4 col-sm-6 sm-padding">
               <div className="blog-item box-shadow">
                 <div className="blog-thumb">
-                  <img src="img/post-3.jpg" alt="post" />
+                  <img src="/img/post-3.jpg" alt="post" />
                   <span className="category"><a href="#">Design</a></span>
                 </div>
                 <div className="blog-content">

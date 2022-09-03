@@ -43,7 +43,7 @@ export default function ProjectsCarousel() {
         </div>
         <div id="projects-carousel" className="projects-carousel box-shadow owl-carousel">
           <div className="project-item">
-            <img src="img/project-1.jpg" alt="projects" />
+            <img src="/img/project-1.jpg" alt="projects" />
             <div className="overlay"></div>
             <a href="img/project-1.jpg" className="view-icon img-popup" data-gall="project"> <i
               className="fas fa-expand"></i></a>
@@ -53,7 +53,7 @@ export default function ProjectsCarousel() {
             </div>
           </div>
           <div className="project-item">
-            <img src="img/project-2.jpg" alt="projects" />
+            <img src="/img/project-2.jpg" alt="projects" />
             <div className="overlay"></div>
             <a href="img/project-2.jpg" className="view-icon img-popup" data-gall="project"> <i
               className="fas fa-expand"></i></a>
@@ -63,7 +63,7 @@ export default function ProjectsCarousel() {
             </div>
           </div>
           <div className="project-item">
-            <img src="img/project-3.jpg" alt="projects" />
+            <img src="/img/project-3.jpg" alt="projects" />
             <div className="overlay"></div>
             <a href="img/project-3.jpg" className="view-icon img-popup" data-gall="project"> <i
               className="fas fa-expand"></i></a>
@@ -73,7 +73,7 @@ export default function ProjectsCarousel() {
             </div>
           </div>
           <div className="project-item">
-            <img src="img/project-4.jpg" alt="projects" />
+            <img src="/img/project-4.jpg" alt="projects" />
             <div className="overlay"></div>
             <a href="img/project-4.jpg" className="view-icon img-popup" data-gall="project"> <i
               className="fas fa-expand"></i></a>
@@ -83,7 +83,7 @@ export default function ProjectsCarousel() {
             </div>
           </div>
           <div className="project-item">
-            <img src="img/project-5.jpg" alt="projects" />
+            <img src="/img/project-5.jpg" alt="projects" />
             <div className="overlay"></div>
             <a href="img/project-5.jpg" className="view-icon img-popup" data-gall="project"> <i
               className="fas fa-expand"></i></a>

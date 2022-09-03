@@ -41,7 +41,7 @@ export default function TestimonialCarousel() {
         </div>
         <div id="testimonial-carousel" className="testimonial-carousel box-shadow owl-carousel">
           <div className="testi-item d-flex align-items-center">
-            <img src="img/testi-1.jpg" alt="img" />
+            <img src="/img/testi-1.jpg" alt="img" />
             <div className="testi-content">
               <p>"Thank you for guiding us through the scaffolding process, understanding, and always ready
                 to accommodate our needs. We love our new space and know that it was built by the very
@@ -59,7 +59,7 @@ export default function TestimonialCarousel() {
             <i className="fa fa-quote-right"></i>
           </div>
           <div className="testi-item d-flex align-items-center">
-            <img src="img/testi-2.jpg" alt="img" />
+            <img src="/img/testi-2.jpg" alt="img" />
             <div className="testi-content">
               <p>"Thank you for guiding us through the scaffolding process, understanding, and always ready
                 to accommodate our needs. We love our new space and know that it was built by the very
@@ -77,7 +77,7 @@ export default function TestimonialCarousel() {
             <i className="fa fa-quote-right"></i>
           </div>
           <div className="testi-item d-flex align-items-center">
-            <img src="img/testi-3.jpg" alt="img" />
+            <img src="/img/testi-3.jpg" alt="img" />
             <div className="testi-content">
               <p>"Thank you for guiding us through the scaffolding process, understanding, and always ready
                 to accommodate our needs. We love our new space and know that it was built by the very
