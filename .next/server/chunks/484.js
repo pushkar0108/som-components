@@ -341,9 +341,7 @@ function WhatsappButton() {
         href: "https://wa.me/918860001449?text=Welcome to VMG Shutterings! For any requirements of Scaffolding on rent or hire, Please drop a message.",
         target: "_blank",
         children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-            src: "/img/whatsapp.png",
-            width: "45",
-            height: "45"
+            src: "/img/whatsapp.png"
         })
     });
 };
