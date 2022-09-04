@@ -15,7 +15,7 @@ export default function ContentSection() {
                   creates exceptional experiences, balanced relationships, and community built environment.
                   Building isn’t just job. It's our passion. With every project we undertake, we set the bar
                   high and provide the best industry.</p>
-                <a href="#" className="default-btn">Get Free Quote</a>
+                <a href="/contact" className="default-btn">Get Free Quote</a>
               </div>
             </div>
           </div>

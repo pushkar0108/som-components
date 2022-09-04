@@ -2,10 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/about": "pages/about.html",
-  "/": "pages/index.html",
-  "/product/[pid]": "pages/product/[pid].html",
   "/contact": "pages/contact.html",
+  "/product/[pid]": "pages/product/[pid].html",
   "/products": "pages/products.html",
+  "/": "pages/index.html",
   "/services": "pages/services.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"

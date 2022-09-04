@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { products } from "../services/products";
 
 export default function Header() {
     useEffect(() => {
@@ -59,6 +60,16 @@ export default function Header() {
                                 </li>
                                 <li>
                                     <a href="/products">Products</a>
+                                    <ul>
+                                        {
+                                            products.map(product => {
+                                                const {id, title} = product;
+                                                return <li key={id}>
+                                                    <a href={`/product/${id}`}>{title}</a>
+                                                </li>
+                                            })
+                                        }
+                                    </ul>
                                 </li>
                                 <li><a href="/contact">Contact</a></li>
                             </ul>

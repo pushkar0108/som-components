@@ -21,7 +21,7 @@ export default function Home() {
       <CTASection />
       <ContentSection />
       <TestimonialCarousel />
-      <BlogSection />
+      {/* <BlogSection /> */}
       <SponsorCarousel />
     </Layout>
   )
