@@ -6,8 +6,8 @@ export default function Footer() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-sm-6 sm-padding">
-                            <div className="widget-content">
-                                <a href="#"><img src="/img/logo-light.png" alt="brand" /></a>
+                            <div className="widget-content footer-logo">
+                                <a><img src="/img/logo-vmg.png" alt="brand" height="150" /></a>
                                 <p>Strong foundations, <br />for a strong future</p>
                             </div>
                         </div>
@@ -63,6 +63,11 @@ export default function Footer() {
                     </div>
                 </div>
             </section>
+            <footer className="footer-section align-center">
+                <div className="container">
+                    <p>Copyright © VMG Shutterings</p>
+                </div>
+            </footer>
         </>
     )
 }

@@ -61,14 +61,27 @@ function Header() {
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                     className: "primary-header-inner",
                     children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                             className: "header-logo",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                href: "#",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                    children: "VMG Shutterings"
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                    href: "/",
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                        src: "/img/logo-vmg-orange1.png",
+                                        alt: "brand",
+                                        height: "100"
+                                    })
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h3", {
+                                    children: [
+                                        "VMG ",
+                                        /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                        "Shuttering ",
+                                        /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                        " Store"
+                                    ]
                                 })
-                            })
+                            ]
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
                             className: "header-menu-wrap",
@@ -145,161 +158,172 @@ function Header() {
 ;// CONCATENATED MODULE: ./components/Footer.jsx
 
 function Footer() {
-    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx("section", {
-            className: "widget-section padding",
-            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "container",
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "row",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "col-lg-3 col-sm-6 sm-padding",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "widget-content",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "#",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                            src: "/img/logo-light.png",
-                                            alt: "brand"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                        children: [
-                                            "Strong foundations, ",
-                                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                            "for a strong future"
-                                        ]
-                                    })
-                                ]
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "col-lg-2 col-sm-6 sm-padding",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "widget-content",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                        children: "Company"
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                                        className: "widget-links",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                    href: "/about",
-                                                    children: "About Us"
-                                                })
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                    href: "/services",
-                                                    children: "Our Services"
-                                                })
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                    href: "/products",
-                                                    children: "Products"
-                                                })
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                    href: "/contact",
-                                                    children: "Contact Us"
-                                                })
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("section", {
+                className: "widget-section padding",
+                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: "container",
+                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "row",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: "col-lg-3 col-sm-6 sm-padding",
+                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                    className: "widget-content footer-logo",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                                src: "/img/logo-vmg.png",
+                                                alt: "brand",
+                                                height: "150"
                                             })
-                                        ]
-                                    })
-                                ]
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "col-lg-3 col-sm-6 sm-padding",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "widget-content",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                        children: "Headquaters"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        children: "Plot No. 1, Survey No. 142/1, Budasan, Taluka-Kadi, Distt. Mehsana, Gujarat-382715"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "mailto: vmgshutteringstore@gmail.com",
-                                            children: "vmgshutteringstore@gmail.com"
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                            children: [
+                                                "Strong foundations, ",
+                                                /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                                "for a strong future"
+                                            ]
                                         })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "tel:+91-8799067836",
-                                            children: "+91 87990 67836"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "tel:+91-8799079659",
-                                            children: "+91 87990 79659"
-                                        })
-                                    })
-                                ]
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "col-lg-4 col-sm-6 sm-padding",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "widget-content",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                        children: "Newslatter Subscription"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        children: "Subscribe to get the latest news."
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "subscribe-box clearfix",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: "subscribe-form-wrap",
-                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("form", {
-                                                action: "#",
-                                                className: "subscribe-form",
-                                                children: [
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                                        type: "email",
-                                                        name: "email",
-                                                        id: "subs-email",
-                                                        className: "form-input",
-                                                        placeholder: "Enter Your Email Address..."
-                                                    }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                                        type: "submit",
-                                                        className: "submit-btn",
-                                                        children: "Subscribe"
-                                                    }),
-                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                                        id: "subscribe-result",
-                                                        children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                                className: "subscription-success"
-                                                            }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                                className: "subscription-error"
-                                                            })
-                                                        ]
+                                    ]
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: "col-lg-2 col-sm-6 sm-padding",
+                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                    className: "widget-content",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("h4", {
+                                            children: "Company"
+                                        }),
+                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
+                                            className: "widget-links",
+                                            children: [
+                                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                        href: "/about",
+                                                        children: "About Us"
                                                     })
-                                                ]
+                                                }),
+                                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                        href: "/services",
+                                                        children: "Our Services"
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                        href: "/products",
+                                                        children: "Products"
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                        href: "/contact",
+                                                        children: "Contact Us"
+                                                    })
+                                                })
+                                            ]
+                                        })
+                                    ]
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: "col-lg-3 col-sm-6 sm-padding",
+                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                    className: "widget-content",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("h4", {
+                                            children: "Headquaters"
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                            children: "Plot No. 1, Survey No. 142/1, Budasan, Taluka-Kadi, Distt. Mehsana, Gujarat-382715"
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                href: "mailto: vmgshutteringstore@gmail.com",
+                                                children: "vmgshutteringstore@gmail.com"
+                                            })
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                href: "tel:+91-8799067836",
+                                                children: "+91 87990 67836"
+                                            })
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                href: "tel:+91-8799079659",
+                                                children: "+91 87990 79659"
                                             })
                                         })
-                                    })
-                                ]
+                                    ]
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: "col-lg-4 col-sm-6 sm-padding",
+                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                    className: "widget-content",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("h4", {
+                                            children: "Newslatter Subscription"
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                            children: "Subscribe to get the latest news."
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                            className: "subscribe-box clearfix",
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                className: "subscribe-form-wrap",
+                                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("form", {
+                                                    action: "#",
+                                                    className: "subscribe-form",
+                                                    children: [
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                                            type: "email",
+                                                            name: "email",
+                                                            id: "subs-email",
+                                                            className: "form-input",
+                                                            placeholder: "Enter Your Email Address..."
+                                                        }),
+                                                        /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                                            type: "submit",
+                                                            className: "submit-btn",
+                                                            children: "Subscribe"
+                                                        }),
+                                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                            id: "subscribe-result",
+                                                            children: [
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                                    className: "subscription-success"
+                                                                }),
+                                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                                                    className: "subscription-error"
+                                                                })
+                                                            ]
+                                                        })
+                                                    ]
+                                                })
+                                            })
+                                        })
+                                    ]
+                                })
                             })
-                        })
-                    ]
+                        ]
+                    })
+                })
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("footer", {
+                className: "footer-section align-center",
+                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: "container",
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        children: "Copyright \xa9 VMG Shutterings"
+                    })
                 })
             })
-        })
+        ]
     });
 };
 
@@ -367,14 +391,14 @@ function Layout({ children  }) {
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                         name: "description",
-                        content: "Scaffolding & Building HTML Template"
+                        content: "Scaffolding"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                         name: "author",
                         content: "AlexaTheme"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                        children: "Balaji | Scaffolding & Building HTML Template"
+                        children: "VMG Shuttering | Scaffolding"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         rel: "shortcut icon",
@@ -449,10 +473,10 @@ function Layout({ children  }) {
                 })
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(Header, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(WhatsappButton, {}),
             children,
             /*#__PURE__*/ jsx_runtime_.jsx(Footer, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(ScrollToTop, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(WhatsappButton, {}),
             /*#__PURE__*/ jsx_runtime_.jsx("script", {
                 src: "/js/vendor/jquery-1.12.4.min.js"
             }),

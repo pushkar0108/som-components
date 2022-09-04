@@ -10,9 +10,9 @@ export default function Layout({ children }) {
       <Head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Scaffolding & Building HTML Template" />
+        <meta name="description" content="Scaffolding" />
         <meta name="author" content="AlexaTheme" />
-        <title>Balaji | Scaffolding & Building HTML Template</title>
+        <title>VMG Shuttering | Scaffolding</title>
         <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png" />
 
         <link rel="stylesheet" href="/css/fontawesome.min.css" />
@@ -48,10 +48,10 @@ export default function Layout({ children }) {
         <div className="spinner"></div>
       </div>
       <Header />
-      <WhatsappButton />
       {children}
       <Footer />
       <ScrollToTop />
+      <WhatsappButton />
 
       <script src="/js/vendor/jquery-1.12.4.min.js"></script>
 

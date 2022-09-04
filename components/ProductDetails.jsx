@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 export default function ProductDetails({ product = {} }) {
-  const { title, description, imgSrc } = product;
+  const { title, description, imgSrc, sizes } = product;
   useEffect(() => {
     $('#project-single-carousel').owlCarousel({
       loop: true,
@@ -52,14 +52,19 @@ export default function ProductDetails({ product = {} }) {
             <div className="project-single-content">
               <h2>{title}</h2>
               <p>{description}</p>
-              <ul className="project-details">
-                <li><span>Architects</span>: José Carpio, Valentin Lacoste, Kyle Frederick</li>
-                <li><span>Location</span>: 962 Fifth Avenue, 3rd Floor New York.</li>
-                <li><span>Category</span>: Architecture, Interior.</li>
-                <li><span>Area</span>: 119.0.563</li>
-                <li><span>Project Year</span>: 2019/2020</li>
-                <li><span>Manufactures</span>: AlexaTheme construction company.</li>
-              </ul>
+              {
+                sizes &&
+                <div>
+                  <h3>Available in sizes:</h3>
+                  <ul className="project-details">
+                    {
+                      sizes.map(size => {
+                        return <li>{size}</li>
+                      })
+                    }
+                  </ul>
+                </div>
+              }
             </div>
           </div>
         </div>

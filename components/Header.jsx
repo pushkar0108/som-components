@@ -42,9 +42,10 @@ export default function Header() {
                 <div className="container">
                     <div className="primary-header-inner">
                         <div className="header-logo">
-                            <a href="#">
-                                <h3>VMG Shutterings</h3>
+                            <a href="/">
+                                <img src="/img/logo-vmg-orange1.png" alt="brand" height="100" />
                             </a>
+                            <h3>VMG <br />Shuttering <br /> Store</h3>
                         </div>
                         <div className="header-menu-wrap">
                             <ul className="dl-menu">

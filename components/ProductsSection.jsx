@@ -10,11 +10,12 @@ const Product = ({ id, imgSrc, title, description }) => {
         <img src={imgSrc} alt="projects" />
         <div className="overlay"></div>
         <a href={`/product/${id}`} className="view-icon ajax-popup-link"> 
+          More details &nbsp;
           <i className="fas fa-expand"></i>
         </a>
         <div className="projects-content">
           {/* <a href="#" className="category">Interior</a> */}
-          <h3><a href="#" className="tittle">{title}</a></h3>
+          <h3><a href={`/product/${id}`} className="tittle">{title}</a></h3>
           <p style={{color: "white"}}>{description}</p>
         </div>
       </div>
