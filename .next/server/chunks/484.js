@@ -70,9 +70,9 @@ function Header() {
                                 /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                     href: "/",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                        src: "/img/logo-vmg-orange1.png",
+                                        src: "/img/logo-cropped-orange.png",
                                         alt: "brand",
-                                        height: "100"
+                                        height: "60"
                                     })
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h3", {
@@ -171,7 +171,10 @@ function Header() {
     });
 };
 
+// EXTERNAL MODULE: ./components/SocialIcons.jsx
+var SocialIcons = __webpack_require__(859);
 ;// CONCATENATED MODULE: ./components/Footer.jsx
+
 
 function Footer() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
@@ -322,7 +325,8 @@ function Footer() {
                                                     ]
                                                 })
                                             })
-                                        })
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx(SocialIcons/* default */.Z, {})
                                     ]
                                 })
                             })
@@ -335,7 +339,7 @@ function Footer() {
                 children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: "container",
                     children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        children: "Copyright \xa9 VMG Shutterings"
+                        children: "Copyright \xa9 VMG Shuttering Store"
                     })
                 })
             })
@@ -378,7 +382,7 @@ function WhatsappButton() {
     return /*#__PURE__*/ jsx_runtime_.jsx("a", {
         id: "whatsapp-icon",
         "aria-label": "Chat on WhatsApp",
-        href: "https://wa.me/918860001449?text=Welcome to VMG Shutterings! For any requirements of Scaffolding on rent or hire, Please drop a message.",
+        href: "https://wa.me/918799067836?text=Welcome to VMG Shuttering Store! For any requirements of Scaffolding on rent or hire, Please drop a message.",
         target: "_blank",
         children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
             src: "/img/whatsapp.png"
@@ -539,6 +543,44 @@ function Layout({ children  }) {
 
 /***/ }),
 
+/***/ 859:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (/* binding */ SocialIcons)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+
+function SocialIcons() {
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        className: "social-media-icons",
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                href: "https://www.instagram.com/vmgshutteringstore/",
+                target: "_blank",
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                    className: "insta-icon",
+                    src: "./icons/fb.png",
+                    alt: "fb-icon"
+                })
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                href: "https://www.instagram.com/vmgshutteringstore/",
+                target: "_blank",
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                    className: "insta-icon",
+                    src: "./icons/insta.png",
+                    alt: "instagram-icon"
+                })
+            })
+        ]
+    });
+};
+
+
+/***/ }),
+
 /***/ 757:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -555,7 +597,7 @@ const products = [
     {
         id: "2",
         imgSrc: "/img/products/2.jpeg",
-        title: "MS Shutterings Plates",
+        title: "MS Shuttering Plates",
         description: "MS Shuttering Plates are used to join 40mm NB tubes to other tubes,ledgers, and props. They are available in different sizes.",
         sizes: [
             "3x2 ft",

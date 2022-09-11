@@ -13,7 +13,7 @@ export default function ContentSection() {
                 <h2>Offering the most complete integrated package!</h2>
                 <p>We are committed to building a sustainable future by fostering a collaborative spirit that
                   creates exceptional experiences, balanced relationships, and community built environment.
-                  Building isn’t just job. It's our passion. With every project we undertake, we set the bar
+                  Shuttering isn’t just job. It's our passion. With every project we undertake, we set the bar
                   high and provide the best industry.</p>
                 <a href="/contact" className="default-btn">Get Free Quote</a>
               </div>

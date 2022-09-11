@@ -14,7 +14,6 @@ const Product = ({ id, imgSrc, title, description }) => {
           <i className="fas fa-expand"></i>
         </a>
         <div className="projects-content">
-          {/* <a href="#" className="category">Interior</a> */}
           <h3><a href={`/product/${id}`} className="tittle">{title}</a></h3>
           <p style={{color: "white"}}>{description}</p>
         </div>

@@ -44,7 +44,7 @@ export default function Header() {
                     <div className="primary-header-inner">
                         <div className="header-logo">
                             <a href="/">
-                                <img src="/img/logo-vmg-orange1.png" alt="brand" height="100" />
+                                <img src="/img/logo-cropped-orange.png" alt="brand" height="60" />
                             </a>
                             <h3>VMG <br />Shuttering <br /> Store</h3>
                         </div>

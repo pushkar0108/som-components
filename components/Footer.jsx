@@ -1,3 +1,4 @@
+import SocialIcons from "../components/SocialIcons";
 
 export default function Footer() {
     return (
@@ -58,6 +59,7 @@ export default function Footer() {
                                         </form>
                                     </div>
                                 </div>
+                                <SocialIcons />                                
                             </div>
                         </div>
                     </div>
@@ -65,7 +67,7 @@ export default function Footer() {
             </section>
             <footer className="footer-section align-center">
                 <div className="container">
-                    <p>Copyright © VMG Shutterings</p>
+                    <p>Copyright © VMG Shuttering Store</p>
                 </div>
             </footer>
         </>

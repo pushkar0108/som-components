@@ -1,3 +1,4 @@
+import SocialIcons from "../components/SocialIcons";
 
 export default function ContactSection() {
     return (
@@ -9,7 +10,7 @@ export default function ContactSection() {
                         <div className="contact-info">
                             <h2>Get in touch with us & <br />send us message today!</h2>
                             <p>
-                                VMG Shutterings Store is the leading supplier of Shuttering and Scaffolding material on hire basis. We use the tested and high quality materials to manufacture our products. We have most modern workshop fitted with heavy-duty automatic plant.
+                                VMG Shuttering Store is the leading supplier of Shuttering and Scaffolding material on hire basis. We use the tested and high quality materials to manufacture our products. We have most modern workshop fitted with heavy-duty automatic plant.
                             </p>
                             <h3>
                                 Plot No. 1, Survey No. 142/1, Budasan, 
@@ -24,8 +25,8 @@ export default function ContactSection() {
                                 <a href="tel:+91-8799079659">
                                     +91 87990 79659
                                 </a> <br />
-                                <br />
                             </h4>
+                            <SocialIcons />
                         </div>
                     </div>
                     <div className="col-md-6 padding-15">

@@ -36,7 +36,7 @@ function ServiceSection() {
                                         children: "Offering the most complete integrated package!"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                        children: "VMG Shutterings Store is the leader in Shuttering and Scaffolding on hire and rent in India. We have more than 30 years experience in providing shuttering materials on hire basis. We have been supplying high quality shuttering and scaffolding material to various leading construction companies, builder and government agencies on hire and rental across the country."
+                                        children: "VMG Shuttering Store is the leader in Shuttering and Scaffolding on hire and rent in India. We have more than 30 years experience in providing shuttering materials on hire basis. We have been supplying high quality shuttering and scaffolding material to various leading construction companies, builder and government agencies on hire and rental across the country."
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         children: "Our fully automated heavy duty plant along with state of the art workshop fitted with best in class technology makes us stand out of the competition. Out team of qualified engineers, quality control team and technical staff dovetailed with the technology at our disposal has made us the first choice for the shuttering and scaffolding for construction companies and government agencies across India."
@@ -45,7 +45,7 @@ function ServiceSection() {
                                         children: "The issue of sustainability has a firm place in our business process. Product development is already focused on the best utilization of materials and thus the most economical use. New technologies and efficient production processes ensure the best quality and long service life of our system equipment which, in turn, has a positive impact on the consumption of resources. Our offering is imaginative and efficient, and aims to help our customers to achieve their goals. In this way, we look towards the future with enthusiasm, standing staunchly by the values and philosophy that have shaped and continue to shape our identity."
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                        href: "#",
+                                        href: "/services",
                                         className: "default-btn",
                                         children: "Our All Services"
                                     })
@@ -67,10 +67,10 @@ function ServiceSection() {
                                                     className: "flaticon-loader"
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                                    children: "General Building"
+                                                    children: "Scaffolding Rentals"
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                    children: "We are committed building a sustainable future fostering a collaborative spirit."
+                                                    children: "We have most modern workshop fitted with heavy-duty automatic robotics machines."
                                                 })
                                             ]
                                         })
@@ -85,10 +85,10 @@ function ServiceSection() {
                                                     className: "flaticon-tanks"
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                                    children: "Building Shuttering"
+                                                    children: "Scaffolding Manufacturing"
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                    children: "We are committed building a sustainable future fostering a collaborative spirit."
+                                                    children: "We have most modern workshops fitted with heavy-duty automated robotics machines this fulfilling bulk orders timely."
                                                 })
                                             ]
                                         })
@@ -103,10 +103,10 @@ function ServiceSection() {
                                                     className: "flaticon-refinery"
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                                    children: "Refurbishments"
+                                                    children: "Repair & Recondition"
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                    children: "We are committed building a sustainable future fostering a collaborative spirit."
+                                                    children: "We offer best cleaning service using shot blasting machines which reconditions the material as good as new thus increasing the lifespan of it."
                                                 })
                                             ]
                                         })
@@ -121,10 +121,10 @@ function ServiceSection() {
                                                     className: "flaticon-control-system"
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                                    children: "Building Renovation"
+                                                    children: "Scaffolding Sale"
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                    children: "We are committed building a sustainable future fostering a collaborative spirit."
+                                                    children: "We have most modern workshops fitted with heavy-duty automated robotics machines this fulfilling bulk orders timely."
                                                 })
                                             ]
                                         })

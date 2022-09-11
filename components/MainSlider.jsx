@@ -76,7 +76,7 @@ export default function MainSlider() {
               </div>
               <div className="dl-btn-group">
                 <div className="inner-layer">
-                  <a href="#" className="dl-btn" data-animation="fade-in-left" data-delay="3.5s">View Projects
+                  <a href="/products" className="dl-btn" data-animation="fade-in-left" data-delay="3.5s">View Products
                     <i className="arrow_right"></i></a>
                 </div>
               </div>
@@ -117,8 +117,8 @@ export default function MainSlider() {
               </div>
               <div className="dl-btn-group">
                 <div className="inner-layer">
-                  <a href="#" className="dl-btn" data-animation="fade-in-bottom" data-delay="3.5s">View
-                    Projects <i className="arrow_right"></i></a>
+                  <a href="/products" className="dl-btn" data-animation="fade-in-bottom" data-delay="3.5s">View
+                    Products <i className="arrow_right"></i></a>
                 </div>
               </div>
             </div>
@@ -157,8 +157,8 @@ export default function MainSlider() {
               </div>
               <div className="dl-btn-group">
                 <div className="inner-layer">
-                  <a href="#" className="dl-btn" data-animation="fade-in-right" data-delay="3.5s">View
-                    Projects <i className="arrow_right"></i></a>
+                  <a href="/products" className="dl-btn" data-animation="fade-in-right" data-delay="3.5s">View
+                  Products <i className="arrow_right"></i></a>
                 </div>
               </div>
             </div>

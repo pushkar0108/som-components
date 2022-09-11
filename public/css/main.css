@@ -40,3 +40,20 @@
     line-height: 1;
     color: #ff7606;
 }
+
+.header-logo img {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.social-media-icons img{
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    margin: 2px;
+}
+
+.insta-icon {
+    width: 40px !important;
+    height: 40px !important;
+}

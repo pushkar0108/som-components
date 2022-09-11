@@ -8,7 +8,7 @@ export const products = [
     {
       id: "2",
       imgSrc: "/img/products/2.jpeg", 
-      title: "MS Shutterings Plates", 
+      title: "MS Shuttering Plates", 
       description: "MS Shuttering Plates are used to join 40mm NB tubes to other tubes,ledgers, and props. They are available in different sizes.",
       sizes: [
         "3x2 ft", "3x1.5 ft", "3x1.25 ft", "3x0.75 ft", "3x0.5 ft", "4x1.5 ft",

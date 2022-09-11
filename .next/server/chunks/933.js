@@ -29,13 +29,13 @@ function AboutSection() {
                                     children: "We are the expert in this field with more than 30 years of experience"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    children: "VMG Shutterings Store is the leading supplier of Shuttering and Scaffolding material on hire basis. We use the tested and high quality materials to manufacture our products. We have most modern workshop fitted with heavy-duty automatic plant. We can make the bulk supply of our products to the builders and contractors across the country. We have been supplying products to the various contractors and government departments since thirty years."
+                                    children: "VMG Shuttering Store is the leading supplier of Shuttering and Scaffolding material on hire basis. We use the tested and high quality materials to manufacture our products. We have most modern workshop fitted with heavy-duty automatic plant. We can make the bulk supply of our products to the builders and contractors across the country. We have been supplying products to the various contractors and government departments since thirty years."
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                     children: "Highest quality standards of our products are maintained. We use only quality materials that conform fully with the requirements of British standards. Our products are fully inspected by our qualified staff before delivery to the customers. We render our services to our customers and they are fully satisfied with our products and services."
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                    href: "#",
+                                    href: "/about",
                                     className: "default-btn",
                                     children: "More About Us"
                                 })
