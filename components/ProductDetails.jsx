@@ -59,7 +59,7 @@ export default function ProductDetails({ product = {} }) {
                   <ul className="project-details">
                     {
                       sizes.map(size => {
-                        return <li>{size}</li>
+                        return <li key={size}>{size}</li>
                       })
                     }
                   </ul>

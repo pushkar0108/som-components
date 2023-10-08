@@ -1,7 +1,7 @@
 export const products = [
     {
       id: "1",
-      imgSrc: "/img/products/1.png", 
+      imgSrc: "/img/products/1.jpg", 
       title: "Decking Beams Steel Channels", 
       description: "Our decking bean steel channels have a rugged construction, are dimensionally accurate, and are available in multiple sizes."
     },
@@ -51,7 +51,7 @@ export const products = [
     },
     {
       id: "7",
-      imgSrc: "/img/products/5.png", 
+      imgSrc: "/img/products/5.jpg", 
       title: "Cuplock Vertical/Standard", 
       description: "We offer cup lock in both vertical and standard form for both access and support, and independent and mobile towers",
       sizes: [
@@ -66,5 +66,11 @@ export const products = [
       sizes: [
         "2.0 Mtr", "1.5 Mtr", "1.2 Mtr", "0.9 Mtr",
       ]
+    },
+    {
+      id: "9",
+      imgSrc: "/img/products/9.png", 
+      title: "Base Jack", 
+      description: ""
     },
   ];

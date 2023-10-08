@@ -18,12 +18,9 @@ export default function ContactSection() {
                                 Taluka-Kadi, Distt. Mehsana, Gujarat-382715
                             </h3>
                             <h4>
-                                <span>Email:</span> <a href = "mailto: vmgshutteringstore@gmail.com">vmgshutteringstore@gmail.com</a> <br /> <span>Phone:</span> 
-                                <a href="tel:+91-8799067836">
-                                    +91 87990 67836
-                                </a>, &nbsp;
-                                <a href="tel:+91-8799079659">
-                                    +91 87990 79659
+                                <span>Email:</span> <a href = "mailto: vmgshutteringstore@gmail.com">vmgshutteringstore@gmail.com</a> <br /> <span>Phone:</span>
+                                <a href="tel:+91-9998330047">
+                                    +91 99983 30047
                                 </a> <br />
                             </h4>
                             <SocialIcons />

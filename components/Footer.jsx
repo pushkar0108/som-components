@@ -1,6 +1,6 @@
 import SocialIcons from "../components/SocialIcons";
 
-export default function Footer() {
+export default function Footer({ srcFb, srcInsta }) {
     return (
         <>
             <section className="widget-section padding">
@@ -31,13 +31,8 @@ export default function Footer() {
                                     <a href = "mailto: vmgshutteringstore@gmail.com">vmgshutteringstore@gmail.com</a>
                                 </span>
                                 <span>
-                                    <a href="tel:+91-8799067836">
-                                        +91 87990 67836
-                                    </a>
-                                </span>
-                                <span>
-                                    <a href="tel:+91-8799079659">
-                                        +91 87990 79659
+                                    <a href="tel:+91-9998330047">
+                                        +91 99983 30047
                                     </a>
                                 </span>
                             </div>
@@ -59,7 +54,7 @@ export default function Footer() {
                                         </form>
                                     </div>
                                 </div>
-                                <SocialIcons />                                
+                                <SocialIcons srcFb={srcFb} srcInsta={srcInsta} />                                
                             </div>
                         </div>
                     </div>

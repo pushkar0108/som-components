@@ -71,6 +71,21 @@ export default function Header() {
                                         }
                                     </ul>
                                 </li>
+                                <li>
+                                    <a href="/branch/1">Branches</a>
+                                    <ul>
+                                        <li>
+                                            <a href={`/branch/1`}>
+                                                Gurgaon
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={`/branch/2`}>
+                                                Gujarat
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
                                 <li><a href="/contact">Contact</a></li>
                             </ul>
                         </div>

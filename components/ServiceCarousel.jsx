@@ -40,9 +40,9 @@ export default function ServiceCarousel() {
           <div className="col-lg-10 offset-lg-1">
             <div id="service-carousel" className="service-carousel box-shadow owl-carousel">
               {
-                services.map(service => {
+                services.map((service, index) => {
                   return (
-                    <div className="service-item">
+                    <div key={index} className="service-item">
                       <div className="service-icon">
                         <i className={service.icon}></i>
                       </div>

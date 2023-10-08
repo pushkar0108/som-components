@@ -4,11 +4,11 @@ import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
 import WhatsappButton from "../components/WhatsappButton";
 
-export default function Layout({ children }) {
+export default function Layout({ children, srcFb, srcInsta }) {
   return (
     <div>
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Scaffolding" />
         <meta name="author" content="AlexaTheme" />
@@ -49,7 +49,7 @@ export default function Layout({ children }) {
       </div>
       <Header />
       {children}
-      <Footer />
+      <Footer srcFb={srcFb} srcInsta={srcInsta} />
       <ScrollToTop />
       <WhatsappButton />
 
