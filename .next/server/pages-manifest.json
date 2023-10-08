@@ -1,6 +1,13 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
+  "/branch/[bid]": "pages/branch/[bid].html",
+  "/about": "pages/about.html",
+  "/contact": "pages/contact.html",
+  "/product/[pid]": "pages/product/[pid].html",
+  "/services": "pages/services.html",
+  "/products": "pages/products.html",
+  "/": "pages/index.html",
   "/_document": "pages/_document.js",
-  "/branch/[bid]": "pages/branch/[bid].js"
+  "/404": "pages/404.html"
 }
