@@ -5,7 +5,7 @@ import Layout from "../../components/Layout";
 const branchMap = {
   1: {
     title: "Guragon Branch",
-    subTitle: "Plot No. 1, Survey No. 142/1, Budasan, Taluka-Kadi, Distt. Mehsana, Gujarat-382715",
+    subTitle: "1150/3/1, VILLAGE KHANDSA, BEHRAMPUR INDUSTRIAL AREA, SECTOR-35, GURGAON - 122004, HARYANA",
     images: [
       "/img/branches/1/1.jpeg",
       "/img/branches/1/2.jpeg",
@@ -37,10 +37,7 @@ export default function Product() {
   const branch = branchMap[bid];
 
   return (
-    <Layout
-      // srcFb = {'../public/icons/fb.png'}
-      // srcInsta = {'../public/icons/insta.png'}
-    >
+    <Layout>
       {
         branch ?
         <>

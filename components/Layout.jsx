@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
 import WhatsappButton from "../components/WhatsappButton";
 
-export default function Layout({ children, srcFb, srcInsta }) {
+export default function Layout({ children }) {
   return (
     <div>
       <Head>
@@ -49,7 +49,7 @@ export default function Layout({ children, srcFb, srcInsta }) {
       </div>
       <Header />
       {children}
-      <Footer srcFb={srcFb} srcInsta={srcInsta} />
+      <Footer />
       <ScrollToTop />
       <WhatsappButton />
 

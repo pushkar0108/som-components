@@ -1,6 +1,6 @@
 import SocialIcons from "../components/SocialIcons";
 
-export default function Footer({ srcFb, srcInsta }) {
+export default function Footer({ }) {
     return (
         <>
             <section className="widget-section padding">
@@ -54,7 +54,7 @@ export default function Footer({ srcFb, srcInsta }) {
                                         </form>
                                     </div>
                                 </div>
-                                <SocialIcons srcFb={srcFb} srcInsta={srcInsta} />                                
+                                <SocialIcons />                                
                             </div>
                         </div>
                     </div>
