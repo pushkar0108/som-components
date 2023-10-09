@@ -73,7 +73,7 @@ export default function Header() {
                                 </li>
                                 <li>
                                     <a href="/branch/1">Branches</a>
-                                    <ul>
+                                    <ul style={{display: "block"}}>
                                         <li>
                                             <a href={`/branch/1`}>
                                                 Gurgaon
