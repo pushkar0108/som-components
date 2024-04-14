@@ -10,7 +10,7 @@ export default function ContactSection() {
                         <div className="contact-info">
                             <h2>Get in touch with us & <br />send us message today!</h2>
                             <p>
-                                VMG Shuttering Store is the leading supplier of Shuttering and Scaffolding material on hire basis. We use the tested and high quality materials to manufacture our products. We have most modern workshop fitted with heavy-duty automatic plant.
+                                SOM Components is the leading supplier of Shuttering and Scaffolding material on hire basis. We use the tested and high quality materials to manufacture our products. We have most modern workshop fitted with heavy-duty automatic plant.
                             </p>
                             <h3>
                                 Plot No. 1, Survey No. 142/1, Budasan, 
@@ -18,9 +18,9 @@ export default function ContactSection() {
                                 Taluka-Kadi, Distt. Mehsana, Gujarat-382715
                             </h3>
                             <h4>
-                                <span>Email:</span> <a href = "mailto: vmgshutteringstore@gmail.com">vmgshutteringstore@gmail.com</a> <br /> <span>Phone:</span>
-                                <a href="tel:+91-9998330047">
-                                    +91 99983 30047
+                                <span>Email:</span> <a href = "mailto: somcomponents@gmail.com">somcomponents@gmail.com</a> <br /> <span>Phone:</span>
+                                <a href="tel:+91-9871238666">
+                                    +91 98712 38666
                                 </a> <br />
                             </h4>
                             <SocialIcons />

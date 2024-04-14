@@ -46,7 +46,7 @@ export default function Header() {
                             <a href="/">
                                 <img src="/img/logo-cropped-orange.png" alt="brand" height="60" />
                             </a>
-                            <h3>VMG <br />Shuttering <br /> Store</h3>
+                            <h3>SOM <br />Components</h3>
                         </div>
                         <div className="header-menu-wrap">
                             <ul className="dl-menu">

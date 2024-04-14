@@ -12,7 +12,7 @@ export default function Layout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Scaffolding" />
         <meta name="author" content="AlexaTheme" />
-        <title>VMG Shuttering | Scaffolding</title>
+        <title>SOM Components</title>
         <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png" />
 
         <link rel="stylesheet" href="/css/fontawesome.min.css" />

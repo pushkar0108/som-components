@@ -28,11 +28,11 @@ export default function Footer({ }) {
                                 <h4>Headquaters</h4>
                                 <p>Plot No. 1, Survey No. 142/1, Budasan, Taluka-Kadi, Distt. Mehsana, Gujarat-382715</p>
                                 <span>
-                                    <a href = "mailto: vmgshutteringstore@gmail.com">vmgshutteringstore@gmail.com</a>
+                                    <a href = "mailto: somcomponents@gmail.com">somcomponents@gmail.com</a>
                                 </span>
                                 <span>
-                                    <a href="tel:+91-9998330047">
-                                        +91 99983 30047
+                                    <a href="tel:+91-9871238666">
+                                        +91 98712 38666
                                     </a>
                                 </span>
                             </div>
@@ -62,7 +62,7 @@ export default function Footer({ }) {
             </section>
             <footer className="footer-section align-center">
                 <div className="container">
-                    <p>Copyright © VMG Shuttering Store</p>
+                    <p>Copyright © SOM Components</p>
                 </div>
             </footer>
         </>
