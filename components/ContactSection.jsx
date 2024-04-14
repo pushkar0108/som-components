@@ -1,6 +1,15 @@
 import SocialIcons from "../components/SocialIcons";
 
 export default function ContactSection() {
+    const handleSubmit = () => {
+        const name = document.getElementById("form-name").value;
+        const subject = document.getElementById("form-subject").value;
+        const message = document.getElementById("form-message").value;
+        const finalMessage = `${message}\n\nRegards - ${name}`;
+    
+        window.open(`mailto:somcomponents@gmail.com?subject=${subject}&body=${encodeURIComponent(finalMessage)}`, '_blank').focus();
+    }
+
     return (
         <section className="contact-section bg-grey padding">
             <div className="dots"></div>
@@ -10,12 +19,13 @@ export default function ContactSection() {
                         <div className="contact-info">
                             <h2>Get in touch with us & <br />send us message today!</h2>
                             <p>
-                                SOM Components is the leading supplier of Shuttering and Scaffolding material on hire basis. We use the tested and high quality materials to manufacture our products. We have most modern workshop fitted with heavy-duty automatic plant.
-                            </p>
+                                SOM Components is the leading manufacturer and supplier of high-quality tape products with precision cutting services. With a focus on excellence and innovation, we provide tailored solutions to meet the diverse needs of our customers across various industries.
+
+                                                            </p>
                             <h3>
-                                Plot No. 1, Survey No. 142/1, Budasan, 
+                            C-85, 2nd Floor, Sector-10, Noida 
                                 <br /> 
-                                Taluka-Kadi, Distt. Mehsana, Gujarat-382715
+                                Uttar Pradesh - 201301
                             </h3>
                             <h4>
                                 <span>Email:</span> <a href = "mailto: somcomponents@gmail.com">somcomponents@gmail.com</a> <br /> <span>Phone:</span>
@@ -27,33 +37,34 @@ export default function ContactSection() {
                         </div>
                     </div>
                     <div className="col-md-6 padding-15">
-                        <div className="contact-form">
-                            <form action="http://html.dynamiclayers.net/at/indico/contact.php" method="post" id="ajax_form"
-                                className="form-horizontal">
+                        <form className="contact-form">
+                            <div className="form-horizontal">
                                 <div className="form-group colum-row row">
                                     <div className="col-sm-6">
-                                        <input type="text" id="name" name="name" className="form-control" placeholder="Name"
+                                        <input type="text" id="form-name" name="name" className="form-control" placeholder="Name"
                                             required />
                                     </div>
                                     <div className="col-sm-6">
-                                        <input type="email" id="email" name="email" className="form-control" placeholder="Email"
+                                        <input type="text" id="form-subject" name="subject" className="form-control" placeholder="Subject"
                                             required />
                                     </div>
                                 </div>
                                 <div className="form-group row">
                                     <div className="col-md-12">
-                                        <textarea id="message" name="message" cols="30" rows="5"
+                                        <textarea id="form-message" name="message" cols="30" rows="5"
                                             className="form-control message" placeholder="Message" required></textarea>
                                     </div>
                                 </div>
                                 <div className="form-group row">
                                     <div className="col-md-12">
-                                        <button id="submit" className="default-btn" type="submit">Send Message</button>
+                                        <button 
+                                        id="submit" 
+                                        onClick={handleSubmit}
+                                        className="default-btn">Send Message</button>
                                     </div>
                                 </div>
-                                <div id="form-messages" className="alert" role="alert"></div>
-                            </form>
-                        </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>

@@ -26,7 +26,7 @@ export default function Footer({ }) {
                         <div className="col-lg-3 col-sm-6 sm-padding">
                             <div className="widget-content">
                                 <h4>Headquaters</h4>
-                                <p>Plot No. 1, Survey No. 142/1, Budasan, Taluka-Kadi, Distt. Mehsana, Gujarat-382715</p>
+                                <p>C-85, 2nd Floor, Sector-10, Noida, Uttar Pradesh - 201301</p>
                                 <span>
                                     <a href = "mailto: somcomponents@gmail.com">somcomponents@gmail.com</a>
                                 </span>

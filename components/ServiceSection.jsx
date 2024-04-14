@@ -9,9 +9,12 @@ export default function ServiceSection() {
             <div className="service-content wow fadeInLeft">
               <span>Explore The Features</span>
               <h2>Offering the most complete integrated package!</h2>
-              <p>SOM Components is the leader in Shuttering and Scaffolding on hire and rent in India. We have more than 30 years experience in providing shuttering materials on hire basis. We have been supplying high quality shuttering and scaffolding material to various leading construction companies, builder and government agencies on hire and rental across the country.</p>
-              <p>Our fully automated heavy duty plant along with state of the art workshop fitted with best in class technology makes us stand out of the competition. Out team of qualified engineers, quality control team and technical staff dovetailed with the technology at our disposal has made us the first choice for the shuttering and scaffolding for construction companies and government agencies across India.</p>
-              <p>The issue of sustainability has a firm place in our business process. Product development is already focused on the best utilization of materials and thus the most economical use. New technologies and efficient production processes ensure the best quality and long service life of our system equipment which, in turn, has a positive impact on the consumption of resources. Our offering is imaginative and efficient, and aims to help our customers to achieve their goals. In this way, we look towards the future with enthusiasm, standing staunchly by the values and philosophy that have shaped and continue to shape our identity.</p>
+              <p>At SOM Components, we have established ourselves as a leader in the tape manufacturing industry through our dedication to quality, reliability, and customer satisfaction. We are committed to delivering superior tape products and cutting-edge solutions to our clients.
+</p>
+              <p>In addition to our extensive tape product line, we offer precision cutting services to ensure that your tapes are delivered to your exact specifications. Whether you require standard sizes or custom dimensions, our cutting capabilities enable us to meet your cutting needs with precision and efficiency.
+</p>
+              <p>At SOM Components, quality is our top priority. We adhere to rigorous quality control standards throughout the manufacturing process to ensure that every tape product meets the highest standards of performance and reliability.
+</p>
               <a href="/services" className="default-btn">Our All Services</a>
             </div>
           </div>
