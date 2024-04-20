@@ -32,7 +32,7 @@ export default function ProductsSection() {
               return <Product 
                 key={product.id}
                 id={product.id}
-                imgSrc={product.imgSrc}
+                imgSrc={product.imgSrcs[0]}
                 title={product.title}
                 description={product.description}
               />

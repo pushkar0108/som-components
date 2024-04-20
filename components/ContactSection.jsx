@@ -21,7 +21,11 @@ export default function ContactSection() {
                             <p>
                                 SOM Components is the leading manufacturer and supplier of high-quality tape products with precision cutting services. With a focus on excellence and innovation, we provide tailored solutions to meet the diverse needs of our customers across various industries.
 
-                                                            </p>
+                            </p>
+                            <p>Ready to learn more about our tape products and cutting services? </p> 
+                            <p>Contact us today to speak with one of our experts and discover how we can meet your tape needs with precision and excellence.
+
+                                </p>
                             <h3>
                             C-85, 2nd Floor, Sector-10, Noida 
                                 <br /> 

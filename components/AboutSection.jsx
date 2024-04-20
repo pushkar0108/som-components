@@ -1,13 +1,14 @@
 
 export default function AboutSection() {
   return (
-    <section className="about-section padding">
+    <section id="about-section" className="about-section padding">
       <div className="container">
         <div className="row about-wrap">
           <div className="col-lg-6 sm-padding">
             <div className="about-content wow fadeInLeft">
-              <h2>About Us</h2>
+              <h2>About SOM Components</h2>
               <p>Welcome to SOM Components, your premier destination for high-quality tape products with precision cutting services. With a focus on excellence and innovation, we provide tailored solutions to meet the diverse needs of our customers across various industries.</p>
+              <p>In addition to our extensive tape product line, we offer precision cutting services to ensure that your tapes are delivered to your exact specifications. Whether you require standard sizes or custom dimensions, our cutting capabilities enable us to meet your cutting needs with precision and efficiency.</p>
               <a href="/about" className="default-btn">More About Us</a>
             </div>
           </div>
@@ -24,7 +25,7 @@ export default function AboutSection() {
                 <i className="flaticon-worker"></i>
                 <div>
                   <h3>Customization</h3>
-                  <p>- We offer customization options to meet your unique requirements, whether it's custom sizes, colors, or adhesive formulations.
+                  <p>We offer customization options to meet your unique requirements, whether it's custom sizes, colors, or adhesive formulations.
 </p>
                 </div>
               </li>
@@ -32,7 +33,7 @@ export default function AboutSection() {
                 <i className="flaticon-gear"></i>
                 <div>
                   <h3>Fast Turnaround</h3>
-                  <p>- With our efficient manufacturing processes and cutting-edge facilities, we can provide fast turnaround times to meet your deadlines and keep your projects on schedule.
+                  <p>With our efficient manufacturing processes and cutting-edge facilities, we can provide fast turnaround times to meet your deadlines and keep your projects on schedule.
 </p>
                 </div>
               </li>

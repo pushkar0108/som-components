@@ -15,7 +15,7 @@ export default function ServiceSection() {
 </p>
               <p>At SOM Components, quality is our top priority. We adhere to rigorous quality control standards throughout the manufacturing process to ensure that every tape product meets the highest standards of performance and reliability.
 </p>
-              <a href="/services" className="default-btn">Our All Services</a>
+              {/* <a href="/services" className="default-btn">Our All Services</a> */}
             </div>
           </div>
           <div className="col-lg-6 sm-padding">
@@ -23,29 +23,30 @@ export default function ServiceSection() {
               <div className="col-md-6 padding-15">
                 <div className="service-item box-shadow wow fadeInUp" data-wow-delay="100ms">
                   <i className="flaticon-loader"></i>
-                  <h3>Scaffolding Rentals</h3>
-                  <p>We have most modern workshop fitted with heavy-duty automatic robotics machines.</p>
+                  <h3>Adhesive Tapes</h3>
+                  <p>From double-sided tapes to masking tapes, we offer a comprehensive selection of adhesive tapes designed for bonding, sealing, and masking purposes.</p>
                 </div>
               </div>
               <div className="col-md-6 padding-15 offset-top">
                 <div className="service-item box-shadow wow fadeInUp" data-wow-delay="300ms">
                   <i className="flaticon-tanks"></i>
-                  <h3>Scaffolding Manufacturing</h3>
-                  <p>We have most modern workshops fitted with heavy-duty automated robotics machines this fulfilling bulk orders timely.</p>
+                  <h3>Industrial Tapes</h3>
+                  <p>Our industrial tapes are engineered to withstand harsh environments and provide durable solutions for various industrial applications.</p>
                 </div>
               </div>
               <div className="col-md-6 padding-15">
                 <div className="service-item box-shadow wow fadeInUp" data-wow-delay="400ms">
                   <i className="flaticon-refinery"></i>
-                  <h3>Repair & Recondition</h3>
-                  <p>We offer best cleaning service using shot blasting machines which reconditions the material as good as new thus increasing the lifespan of it.</p>
+                  <h3>Specialty Tapes</h3>
+                  <p>Discover our specialty tapes, including electrical insulation tapes, reflective tapes, and more, engineered to meet specific industry requirements.</p>
                 </div>
               </div>
               <div className="col-md-6 padding-15 offset-top">
                 <div className="service-item box-shadow wow fadeInUp" data-wow-delay="500ms">
                   <i className="flaticon-control-system"></i>
-                  <h3>Scaffolding Sale</h3>
-                  <p>We have most modern workshops fitted with heavy-duty automated robotics machines this fulfilling bulk orders timely.</p>
+                  <h3>Custom Tapes</h3>
+                  <p>- Need a tape solution tailored to your unique specifications? Our team can work with you to develop custom tapes that meet your exact needs.
+</p>
                 </div>
               </div>
             </div>

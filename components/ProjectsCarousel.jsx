@@ -44,11 +44,11 @@ export default function ProjectsCarousel() {
         </div>
         <div id="projects-carousel" className="projects-carousel box-shadow owl-carousel">
           {
-            products.map(product => {
-              const { id, imgSrc, title, description } = product;
+            products.map((product, index) => {
+              const { id, imgSrcs, title } = product;
               return (
-                <div key={id} className="project-item">
-                  <img src={imgSrc} alt="projects" height={"250px"}/>
+                <div key={id+index} className="project-item">
+                  <img src={imgSrcs[0]} alt="projects" height={"250px"}/>
                   <div className="overlay"></div>
                   <a href={`/product/${id}`} className="view-icon ajax-popup-link" style={{fontSize: "18px"}}> 
                     More details &nbsp;

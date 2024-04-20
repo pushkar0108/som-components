@@ -44,7 +44,7 @@ export default function Header() {
                     <div className="primary-header-inner">
                         <div className="header-logo">
                             <a href="/">
-                                <img src="/img/logo-cropped-orange.png" alt="brand" height="60" />
+                                <img src="/img/logo-som.png" alt="brand" height="60" />
                             </a>
                             <h3>SOM <br />Components</h3>
                         </div>

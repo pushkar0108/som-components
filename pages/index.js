@@ -15,7 +15,7 @@ export default function Home() {
     <Layout>
       <MainSlider />
       <AboutSection />
-      <ServiceCarousel />
+      {/* <ServiceCarousel /> */}
       <WorkProSection />
       <ProjectsCarousel />
       <CTASection />

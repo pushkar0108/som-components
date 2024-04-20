@@ -12,7 +12,7 @@ export default function Home() {
         subTitle = "Strong foundations, for a strong future."
       />
       <AboutSection />
-      <ServiceSection />
+      {/* <ServiceSection /> */}
     </Layout>
   )
 }

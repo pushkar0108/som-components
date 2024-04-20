@@ -12,8 +12,9 @@ export default function Product() {
   return (
     <Layout>
       <PageHeader
-        title="Specialized products"
-        subTitle="We offer an extensive range of supreme quality products to our customers and commit to safety and timely deliveries."
+        title={product?.title}
+        // subTitle={product?.description}
+        // subTitleBg={true}
       />
       {
         product ?

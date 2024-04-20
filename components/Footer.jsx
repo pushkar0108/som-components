@@ -8,7 +8,7 @@ export default function Footer({ }) {
                     <div className="row">
                         <div className="col-lg-3 col-sm-6 sm-padding">
                             <div className="widget-content footer-logo">
-                                <a><img src="/img/logo-vmg.png" alt="brand" height="150" /></a>
+                                <a><img src="/img/logo-som.png" alt="brand" height="100" /></a>
                                 <p>Strong foundations, <br />for a strong future</p>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ export default function Footer({ }) {
                                         </form>
                                     </div>
                                 </div>
-                                <SocialIcons />                                
+                                {/* <SocialIcons />                                 */}
                             </div>
                         </div>
                     </div>
