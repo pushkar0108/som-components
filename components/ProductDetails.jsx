@@ -53,24 +53,24 @@ export default function ProductDetails({ product = {} }) {
               <h2>{title}</h2>
               <p>{description}</p>
               <div className="row">
-                <div className="col-md-6">
-                  {
+                {
                     properties &&
-                    <div>
-                      <h3>PROPERTIES:</h3>
-                      <ul className="project-details">
-                        {
-                          properties.map(property => {
-                            return <li key={property}>{property}</li>
-                          })
-                        }
-                      </ul>
+                    <div className={applications ? "col-md-6" : "col-md-12"}>
+                      <div>
+                        <h3>PROPERTIES:</h3>
+                        <ul className="project-details">
+                          {
+                            properties.map(property => {
+                              return <li key={property}>{property}</li>
+                            })
+                          }
+                        </ul>
+                      </div>
                     </div>
-                  }
-                </div>
-                <div className="col-md-6">
-                  {
-                    applications &&
+                }
+                {
+                  applications &&
+                  <div className={properties ? "col-md-6" : "col-md-12"}>
                     <div>
                       <h3>APPLICATIONS:</h3>
                       <ul className="project-details">
@@ -81,10 +81,9 @@ export default function ProductDetails({ product = {} }) {
                         }
                       </ul>
                     </div>
-                  }
-                </div>
+                  </div>
+                }
               </div>
-              
             </div>
           </div>
         </div>

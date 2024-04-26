@@ -149,28 +149,67 @@ export const products = [
       ]
     },
     {
-      id: "6",
+      id: "7",
       imgSrcs: [
-        "/img/products/p6/1.jpeg",
-        "/img/products/p6/2.jpeg",
-        "/img/products/p6/3.jpeg",
-        "/img/products/p6/4.jpeg",
+        "/img/products/p7/1.jpeg",
+        "/img/products/p7/2.jpeg",
+        "/img/products/p7/3.jpeg",
+        "/img/products/p7/4.jpeg",
+        "/img/products/p7/5.jpeg",
+        "/img/products/p7/6.jpeg",
       ],
-      title: "EVA DOUBLE SIDE FOAM TAPE", 
-      description: "It is made of EVA foam backing and coating on both sides with strong synthetic base adhesive. It is designed for adhering to the irregular surface, fixing the nameplate, auto-mirror and often used in the automobile industry such as door sealing strips, pedal and metal boards. It comes in various colors.",
-      properties: [
-        "Very easily tear-able",
-        "It sticks on any kind of objects in any surface without leaving residue",
-        "Excellent in shock absorption, insulation, cushioning, vibration and sound weakening",
-        "High adhesion",
-        "Economical",
-      ],
+      title: "CROSS FILAMENT TAPE", 
+      description: "Cross filament tape typically consists of a pressure sensitive adhesive applied to one side of a flexible transparent polyester backing material, which is then reinforced with one or more layers of fiberglass filaments running longitudinally down the length of the tape. The filaments can vary in thickness and spacing, depending on the intended application and the level of strength required.",
       applications: [
-        "Automotive industry - vibration absorption",
-        "Decorations",
-        "Daily Pasting",
-        "Fixing Decorative frames",
-        "Mounting nameplates & sign",
+        "1.⁠ ⁠Packaging: It is often used in the packaging industry to seal and reinforce boxes and cartons. It is particularly useful for securing heavy or bulky items that need extra support during shipping",
+        
+         "2. Construction: It can be used to hold together building materials such as plywood, drywall, and insulation. Its high strength and durability make it ideal for temporary or permanent repairs.",
+        
+         "3. Automotive: It is commonly used in the automotive industry to secure parts and components during transport. It can also be used for repairing body panels and holding together plastic and metal parts.",
+        
+         "4. Manufacturing: It is used in many manufacturing applications, such as bundling pipes and cables, securing parts during assembly, and reinforcing packaging for fragile products.",
+        
+         "5. Electrical: It can be used to hold together electrical wires and cables, as well as to provide reinforcement for insulation.",
+        
+         "6. Sports equipment: It is used in the construction of sports equipment such as hockey sticks, baseball bats, and tennis rackets.It provides extra strength and durability to the equipment.",
+        
+         "7. Arts and crafts: It can be used in various art and craft projects that require a strong adhesive. It can be used to create structures, sculptures, and other three-dimensional forms.",
+      ],
+     
+    },
+    {
+      id: "8",
+      imgSrcs: [
+        "/img/products/p8/1.jpeg",
+        "/img/products/p8/2.jpeg",
+        "/img/products/p8/3.jpeg",
+        "/img/products/p8/4.jpeg",
+        "/img/products/p8/5.jpeg",
+      ],
+      title: "DOUBLE SIDED RED POLYSTER TAPE", 
+      description: "Double sided red polyster tape uses PET (polyester) film as backing material and coated with different types of adhesive.It has excellent adhesive strength and grip strength in fields such as electronic devices.",
+      applications: [
+        "Nameplate and membrane switches mounting and fixing",
+        "Earphone gasket mounting, camera lens fixing, electrical wire fixing",
+        "Microphone dust protection net fixing*PCB fixing, LCD frame fixing",
+        "LCD gasket mounting*Battery gasket fixing, battery shell fixing",
+        "Key pad and hard material fixing",
+        "Memory card fixing",
+    
       ]
     },
+    {
+      id: "9",
+      imgSrcs: [
+        "/img/products/p9/1.jpeg",
+        "/img/products/p9/2.jpeg",
+        "/img/products/p9/3.jpeg",
+        "/img/products/p9/4.jpeg",
+        "/img/products/p9/5.jpeg",
+        "/img/products/p9/6.jpeg",
+      ],
+      title: "EPE FOAM SHEET", 
+      description: "EPE foam sheet is a chemically non cross-linked polyethylene foam with closed cells. It is a new type of environmentally-safe foaming material for strong cushioning, shock proofing capabilities. It has good cushioning capabilities by absorbing and spreading the impact from outside while bending itself. It has avoided the weaknesses of traditional rubber foams like easily braking, distortion and bad rebounding features.",
+    },
+
   ];
