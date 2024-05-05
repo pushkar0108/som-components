@@ -9,7 +9,7 @@ export default function Home() {
     <Layout>
       <PageHeader 
         title = "About US & Company"
-        subTitle = "Strong foundations, for a strong future."
+        subTitle = "Tape Innovations: Redefining Precision and Quality"
       />
       <AboutSection />
       {/* <ServiceSection /> */}

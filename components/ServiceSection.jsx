@@ -7,14 +7,12 @@ export default function ServiceSection() {
         <div className="row d-flex align-items-center">
           <div className="col-lg-6 sm-padding">
             <div className="service-content wow fadeInLeft">
-              <span>Explore The Features</span>
-              <h2>Offering the most complete integrated package!</h2>
-              <p>At SOM Components, we have established ourselves as a leader in the tape manufacturing industry through our dedication to quality, reliability, and customer satisfaction. We are committed to delivering superior tape products and cutting-edge solutions to our clients.
-</p>
-              <p>In addition to our extensive tape product line, we offer precision cutting services to ensure that your tapes are delivered to your exact specifications. Whether you require standard sizes or custom dimensions, our cutting capabilities enable us to meet your cutting needs with precision and efficiency.
-</p>
-              <p>At SOM Components, quality is our top priority. We adhere to rigorous quality control standards throughout the manufacturing process to ensure that every tape product meets the highest standards of performance and reliability.
-</p>
+              <span>Discover Our Products</span>
+              <h2>Cutting Edge Solutions: Where Precision Meets Innovation</h2>
+              <p>At SOM Components, we have established ourselves as a leader in the tape manufacturing industry through our dedication to quality, reliability, and customer satisfaction. We are committed to delivering superior tape products and cutting-edge solutions to our clients.</p>
+              <p>Our products include Adhesive Tapes, Industrial Tapes, Specialty Tapes, Custom Tapes - Single Sided Polyester Tape, Kapton Polyimide Tape, Cross Filament Tape, Double Sided Polyster Tape,EPE Foam Sheet.</p>
+              <p>In addition to our extensive tape product line, we offer precision cutting services to ensure that your tapes are delivered to your exact specifications. Whether you require standard sizes or custom dimensions, our cutting capabilities enable us to meet your cutting needs with precision and efficiency.</p>
+              <p>At SOM Components, quality is our top priority. We adhere to rigorous quality control standards throughout the manufacturing process to ensure that every tape product meets the highest standards of performance and reliability.</p>
               {/* <a href="/services" className="default-btn">Our All Services</a> */}
             </div>
           </div>

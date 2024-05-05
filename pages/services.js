@@ -9,7 +9,7 @@ export default function Contact() {
       {/* <ServiceCarousel /> */}
       <PageHeader 
         title = "Take the world’s best services for you"
-        subTitle = "Strong foundations, for a strong future."
+        subTitle = "Explore Our Range: Cutting-Edge Solutions for Every Need"
       />
       <ServiceSection />
     </Layout>

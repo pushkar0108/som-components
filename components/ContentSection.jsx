@@ -9,12 +9,10 @@ export default function ContentSection() {
             </div>
             <div className="col-lg-6 sm-padding">
               <div className="content-info wow fadeInRight" data-wow-delay="300ms">
-                <span>Explore The Features</span>
-                <h2>Offering the most complete integrated package!</h2>
-                <p>We are committed to building a sustainable future by fostering a collaborative spirit that
-                  creates exceptional experiences, balanced relationships, and community built environment.
-                  Shuttering isn’t just job. It's our passion. With every project we undertake, we set the bar
-                  high and provide the best industry.</p>
+                <span>Explore Our Products</span>
+                <h2>Adhesive and Industrial Tapes For all industries and applications</h2>
+                <p>Choose us for high-quality tape products, precision cutting services, and exceptional service. Experience the difference firsthand and discover why we're the preferred choice for industries worldwide.</p>
+                <p>Our products include Adhesive Tapes, Industrial Tapes, Specialty Tapes, Custom Tapes - Single Sided Polyester Tape, Kapton Polyimide Tape, Cross Filament Tape, Double Sided Polyster Tape,EPE Foam Sheet. </p>
                 <a href="/contact" className="default-btn">Get Free Quote</a>
               </div>
             </div>

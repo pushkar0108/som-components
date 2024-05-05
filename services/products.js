@@ -11,7 +11,7 @@ export const products = [
       title: "SINGLE SIDED POLYESTER TAPE", 
       description: "Single-sided polyester (PET) adhesive tapes comprise a polyester film backing material and coated with acrylic or silicone adhesive. Polyester adhesive tapes are suited to various applications which require minimal thickness, high tensile strength, and resistance to ageing and temperature. It come in different colours and in various sizes.",
       properties: [
-        "moisture resistant",
+        "Moisture resistant",
         "Good tensile stength",
         "Solvents resistance",
         "Temperature resistance - UPTO 130 DEGREE CELCIUS",
@@ -66,7 +66,7 @@ export const products = [
         "/img/products/p3/3.jpeg",
       ],
       title: "KAPTON POLYIMIDE TAPE", 
-      description: "Kapton Polyimide Tapes are made from DuPont Kapton HN general purpose film with silicone adhesive. Recom- mended for applications that require an all-polyimide film with an excellent balance of properties over a wide range of temperatures. It is mainly utilized in the gold finger protection during the circuit plate (PCB) over wave crease welding, transformer insulation binding, lithium cell polar ear fixing, and other occasions that need heat-resistance. It performs at peak strength over a range of high temperatures without losing its adhesiveness. Polyimide tape won't weaken under high heat, and on top of that can be removed without any leftover residue. It is used in temperatures ranging from -75°C to +260°C. It has been tested and found to work under much more extreme temperatures. It can be used in temperatures as low as -196°C, to as high as 400°C!",
+      description: "Kapton Polyimide Tapes are made from DuPont Kapton HN general purpose film with silicone adhesive. Recommended for applications that require an all-polyimide film with an excellent balance of properties over a wide range of temperatures. It is mainly utilized in the gold finger protection during the circuit plate (PCB) over wave crease welding, transformer insulation binding, lithium cell polar ear fixing, and other occasions that need heat-resistance. It performs at peak strength over a range of high temperatures without losing its adhesiveness. Polyimide tape won't weaken under high heat, and on top of that can be removed without any leftover residue. It is used in temperatures ranging from -75°C to +260°C. It has been tested and found to work under much more extreme temperatures. It can be used in temperatures as low as -196°C, to as high as 400°C!",
       properties: [
         "Thin and conformable enabling masking of uneven surfaces",
         "Wide operating temperature range up to 500°F",

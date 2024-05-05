@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import image from '../public/img/slider-1.jpg';
 
 export default function MainSlider() {
   useEffect(() => {
@@ -45,29 +44,30 @@ export default function MainSlider() {
       <div className="single-slide">
         <div className="bg-img kenburns-top-right"
           style = {{
-            backgroundImage: "url(./img/slider-1.jpg)"
+            backgroundImage: "url(./img/slider-10.jpeg)"
           }}
         ></div>
         <div className="overlay"></div>
         <div className="slider-content-wrap d-flex align-items-center text-left">
           <div className="container">
             <div className="slider-content">
-              <div className="dl-caption medium">
+              <div className="dl-caption big">
                 <div className="inner-layer">
-                  <div data-animation="fade-in-right" data-delay="1s">Residencial</div>
+                  <div data-animation="fade-in-left" data-delay="2s">Adhesive and Industrial Tapes</div>
                 </div>
               </div>
               <div className="dl-caption big">
                 <div className="inner-layer">
-                  <div data-animation="fade-in-left" data-delay="2s">We provide outstanding</div>
+                  <div data-animation="fade-in-left" data-delay="2.5s">for all industries and applications</div>
                 </div>
               </div>
-              <div className="dl-caption big">
+              <div className="dl-btn-group">
                 <div className="inner-layer">
-                  <div data-animation="fade-in-left" data-delay="2.5s">scaffolding services.</div>
+                  <a href="/products" className="dl-btn" data-animation="fade-in-right" data-delay="3.5s">View
+                  Products <i className="arrow_right"></i></a>
                 </div>
               </div>
-              <div className="dl-caption small">
+              {/* <div className="dl-caption small">
                 <div className="inner-layer">
                   <div data-animation="fade-in-left" data-delay="3s">We have provided complete remodeling
                     and scaffolding solutions for <br />residential and commercial properties in cities.
@@ -79,7 +79,7 @@ export default function MainSlider() {
                   <a href="/products" className="dl-btn" data-animation="fade-in-left" data-delay="3.5s">View Products
                     <i className="arrow_right"></i></a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -87,37 +87,31 @@ export default function MainSlider() {
       <div className="single-slide">
         <div className="bg-img kenburns-top-right"
           style = {{
-            backgroundImage: "url(./img/slider-2.jpg)"
+            backgroundImage: "url(./img/slider-11.jpeg)"
           }}></div>
         <div className="overlay"></div>
         <div className="slider-content-wrap d-flex align-items-center text-center">
           <div className="container">
             <div className="slider-content">
-              <div className="dl-caption medium">
+              <div className="dl-caption big">
                 <div className="inner-layer">
-                  <div data-animation="fade-in-top" data-delay="1s">Residencial</div>
+                  <div data-animation="fade-in-top" data-delay="1s">Together with you, we develop</div>
                 </div>
               </div>
               <div className="dl-caption big">
                 <div className="inner-layer">
-                  <div data-animation="fade-in-bottom" data-delay="2s">We are professional</div>
+                  <div data-animation="fade-in-bottom" data-delay="2.5s">perfect adhesive tape solutions</div>
                 </div>
               </div>
               <div className="dl-caption big">
                 <div className="inner-layer">
-                  <div data-animation="fade-in-bottom" data-delay="2.5s">for building scaffolding.</div>
+                  <div data-animation="fade-in-bottom" data-delay="3.5s">for your applications</div>
                 </div>
               </div>
-              <div className="dl-caption small">
-                <div className="inner-layer">
-                  <div data-animation="fade-in-bottom" data-delay="3s">We have provided complete
-                    remodeling and scaffolding solutions for <br />residential and commercial properties
-                    in cities.</div>
-                </div>
-              </div>
+    
               <div className="dl-btn-group">
                 <div className="inner-layer">
-                  <a href="/products" className="dl-btn" data-animation="fade-in-bottom" data-delay="3.5s">View
+                  <a href="/products" className="dl-btn" data-animation="fade-in-bottom" data-delay="4.5s">View
                     Products <i className="arrow_right"></i></a>
                 </div>
               </div>
@@ -127,32 +121,27 @@ export default function MainSlider() {
       </div>
       <div className="single-slide">
         <div className="bg-img kenburns-top-right" style = {{
-            backgroundImage: "url(./img/slider-3.jpg)"
+            backgroundImage: "url(./img/slider-7.jpeg)"
           }}></div>
         <div className="overlay"></div>
         <div className="slider-content-wrap d-flex align-items-center text-right">
           <div className="container">
             <div className="slider-content">
               <div className="dl-caption medium">
+              </div>
+              <div className="dl-caption big">
                 <div className="inner-layer">
-                  <div data-animation="fade-in-left" data-delay="1s">Residencial</div>
+                  <div data-animation="fade-in-right" data-delay="2s">Your preferred partner </div>
                 </div>
               </div>
               <div className="dl-caption big">
                 <div className="inner-layer">
-                  <div data-animation="fade-in-right" data-delay="2s">We will be happy to take care</div>
-                </div>
-              </div>
-              <div className="dl-caption big">
-                <div className="inner-layer">
-                  <div data-animation="fade-in-right" data-delay="2.5s">of your scaffolding works.</div>
+                  <div data-animation="fade-in-right" data-delay="2.5s">for all kind of Tapes</div>
                 </div>
               </div>
               <div className="dl-caption small">
                 <div className="inner-layer">
-                  <div data-animation="fade-in-right" data-delay="3s">We have provided complete remodeling
-                    and scaffolding solutions for <br />residential and commercial properties in cities.
-                  </div>
+                  <div data-animation="fade-in-bottom" data-delay="2.5s">Adhesive Tapes, Industrial Tapes, Specialty Tapes, Custom Tapes</div>
                 </div>
               </div>
               <div className="dl-btn-group">

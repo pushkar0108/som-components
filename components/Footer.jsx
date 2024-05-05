@@ -9,7 +9,7 @@ export default function Footer({ }) {
                         <div className="col-lg-3 col-sm-6 sm-padding">
                             <div className="widget-content footer-logo">
                                 <a><img src="/img/logo-som.png" alt="brand" height="100" /></a>
-                                <p>Strong foundations, <br />for a strong future</p>
+                                <p>Tape Innovations: <br />Redefining Precision and Quality</p>
                             </div>
                         </div>
                         <div className="col-lg-2 col-sm-6 sm-padding">
@@ -23,38 +23,33 @@ export default function Footer({ }) {
                                 </ul>
                             </div>
                         </div>
+                       
                         <div className="col-lg-3 col-sm-6 sm-padding">
                             <div className="widget-content">
-                                <h4>Headquaters</h4>
+                                <h4>Products</h4>
+                                <ul className="widget-links">
+                                    <li><a href="/product/1">Single Sided Polyester Tape</a></li>
+                                    <li><a href="/product/3">Kapton Polyimide Tape</a></li>
+                                    <li><a href="/product/7">Cross Filament Tape</a></li>
+                                    <li><a href="/product/8">Double Sided Polyster Tape</a></li>
+                                    <li><a href="/product/9">EPE Foam Sheet</a></li>
+                                </ul>
+                                {/* <SocialIcons />                                 */}
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-sm-6 sm-padding">
+                            <div className="widget-content">
+                                <h4>Head Office</h4>
                                 <p>C-85, 2nd Floor, Sector-10, Noida, Uttar Pradesh - 201301</p>
+                                <p>Maanav Goel</p>
                                 <span>
                                     <a href = "mailto: somcomponents@gmail.com">somcomponents@gmail.com</a>
                                 </span>
                                 <span>
                                     <a href="tel:+91-9871238666">
-                                        +91 98712 38666
+                                        +91 987 123 8666
                                     </a>
                                 </span>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-sm-6 sm-padding">
-                            <div className="widget-content">
-                                <h4>Newslatter Subscription</h4>
-                                <p>Subscribe to get the latest news.</p>
-                                <div className="subscribe-box clearfix">
-                                    <div className="subscribe-form-wrap">
-                                        <form action="#" className="subscribe-form">
-                                            <input type="email" name="email" id="subs-email" className="form-input"
-                                                placeholder="Enter Your Email Address..." />
-                                            <button type="submit" className="submit-btn">Subscribe</button>
-                                            <div id="subscribe-result">
-                                                <p className="subscription-success"></p>
-                                                <p className="subscription-error"></p>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                {/* <SocialIcons />                                 */}
                             </div>
                         </div>
                     </div>

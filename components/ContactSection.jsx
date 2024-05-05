@@ -31,10 +31,11 @@ export default function ContactSection() {
                                 <br /> 
                                 Uttar Pradesh - 201301
                             </h3>
+                            <h4>Maanav Goel </h4>
                             <h4>
                                 <span>Email:</span> <a href = "mailto: somcomponents@gmail.com">somcomponents@gmail.com</a> <br /> <span>Phone:</span>
                                 <a href="tel:+91-9871238666">
-                                    +91 98712 38666
+                                    +91 987 123 8666
                                 </a> <br />
                             </h4>
                             <SocialIcons />

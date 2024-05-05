@@ -35,7 +35,7 @@ export default function ProjectsCarousel() {
           <div className="col-lg-8 col-md-6">
             <div className="section-heading mb-40">
               <span>Products</span>
-              <h2>Discover the most fascinating <br />products for our clients</h2>
+              <h2>Precision Solutions for Every Application: Discover Our Products</h2>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 text-right">

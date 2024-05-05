@@ -8,7 +8,7 @@ export default function Home() {
     <Layout>
       <PageHeader 
         title = "Specialized products"
-        subTitle = "We offer an extensive range of supreme quality products to our customers and commit to safety and timely deliveries."
+        subTitle = "We offer an extensive range of supreme products to our customers and commit to quality and timely deliveries."
       />
       <ProductsSection />
     </Layout>
