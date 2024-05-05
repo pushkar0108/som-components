@@ -38,7 +38,7 @@ export default function ContactSection() {
                                     +91 987 123 8666
                                 </a> <br />
                             </h4>
-                            <SocialIcons />
+                            {/* <SocialIcons /> */}
                         </div>
                     </div>
                     <div className="col-md-6 padding-15">

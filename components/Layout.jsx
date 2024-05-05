@@ -13,7 +13,7 @@ export default function Layout({ children }) {
         <meta name="description" content="Scaffolding" />
         <meta name="author" content="AlexaTheme" />
         <title>SOM Components</title>
-        <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="/img/logo-som.png" />
 
         <link rel="stylesheet" href="/css/fontawesome.min.css" />
 

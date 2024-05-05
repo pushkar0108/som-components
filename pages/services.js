@@ -8,8 +8,8 @@ export default function Contact() {
     <Layout>
       {/* <ServiceCarousel /> */}
       <PageHeader 
-        title = "Take the world’s best services for you"
-        subTitle = "Explore Our Range: Cutting-Edge Solutions for Every Need"
+        title = "Explore Our Range:"
+        subTitle = "Adhesive Tapes, Industrial Tapes, Specialty Tapes, Custom Tapes"
       />
       <ServiceSection />
     </Layout>
