@@ -15,7 +15,7 @@ const Product = ({ id, imgSrc, title, description }) => {
         </a>
         <div className="projects-content">
           <h3><a href={`/product/${id}`} className="tittle">{title}</a></h3>
-          <p style={{color: "white"}}>{description}</p>
+          {/* <p style={{color: "white"}}>{description}</p> */}
         </div>
       </div>
     </div>

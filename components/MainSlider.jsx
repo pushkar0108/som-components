@@ -44,7 +44,7 @@ export default function MainSlider() {
       <div className="single-slide">
         <div className="bg-img kenburns-top-right"
           style = {{
-            backgroundImage: "url(./img/slider-10.jpeg)"
+            backgroundImage: "url(./img/slider-14.jpeg)"
           }}
         ></div>
         <div className="overlay"></div>
@@ -87,7 +87,7 @@ export default function MainSlider() {
       <div className="single-slide">
         <div className="bg-img kenburns-top-right"
           style = {{
-            backgroundImage: "url(./img/slider-11.jpeg)"
+            backgroundImage: "url(./img/slider-10.jpeg)"
           }}></div>
         <div className="overlay"></div>
         <div className="slider-content-wrap d-flex align-items-center text-center">

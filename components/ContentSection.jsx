@@ -5,7 +5,7 @@ export default function ContentSection() {
         <div className="container">
           <div className="row content-wrap">
             <div className="col-lg-6 sm-padding wow fadeInLeft" data-wow-delay="100ms">
-              <img className="box-shadow" className="box-shadow" src="/img/content-1.jpg" alt="img" />
+              <img className="box-shadow" className="box-shadow" src="/img/tapes-1.jpeg" alt="img" />
             </div>
             <div className="col-lg-6 sm-padding">
               <div className="content-info wow fadeInRight" data-wow-delay="300ms">
