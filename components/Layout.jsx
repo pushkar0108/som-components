@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Script from 'next/script';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
@@ -7,6 +8,23 @@ import WhatsappButton from "../components/WhatsappButton";
 export default function Layout({ children }) {
   return (
     <div>
+      <Script
+        id="gtm-script"
+        src="https://www.googletagmanager.com/gtag/js?id=G-8ERQDG4VE7"
+        strategy="beforeInteractive"
+      />
+      <Script
+        id="push-gtm-event"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-8ERQDG4VE7');
+        `,
+        }}
+      />
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
