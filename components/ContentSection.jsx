@@ -12,7 +12,7 @@ export default function ContentSection() {
                 <span>Explore Our Products</span>
                 <h2>Adhesive and Industrial Tapes For all industries and applications</h2>
                 <p>Choose us for high-quality tape products, precision cutting services, and exceptional service. Experience the difference firsthand and discover why we're the preferred choice for industries worldwide.</p>
-                <p>Our products include Adhesive Tapes, Industrial Tapes, Specialty Tapes, Custom Tapes - Single Sided Polyester Tape, Kapton Polyimide Tape, Cross Filament Tape, Double Sided Polyster Tape,EPE Foam Sheet. </p>
+                <p>Our products include Adhesive Tapes, Industrial Tapes, Specialty Tapes, Custom Tapes - Single Sided Polyester Tape, Kapton Polyimide Tape, Cross Filament Tape, Double Sided Polyster Tape,Double side EVA Foam Tape. </p>
                 <a href="/contact" className="default-btn">Get Free Quote</a>
               </div>
             </div>

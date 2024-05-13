@@ -32,7 +32,8 @@ export default function Footer({ }) {
                                     <li><a href="/product/3">Kapton Polyimide Tape</a></li>
                                     <li><a href="/product/7">Cross Filament Tape</a></li>
                                     <li><a href="/product/8">Double Sided Polyster Tape</a></li>
-                                    <li><a href="/product/9">EPE Foam Sheet</a></li>
+                                    {/* <li><a href="/product/9">EPE Foam Sheet</a></li> */}
+                                    <li><a href="/product/11">EVA Foam Double Side Tape</a></li>
                                 </ul>
                                 {/* <SocialIcons />                                 */}
                             </div>

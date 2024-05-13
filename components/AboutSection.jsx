@@ -8,7 +8,7 @@ export default function AboutSection() {
             <div className="about-content wow fadeInLeft">
               <h2>About SOM Components</h2>
               <p>Welcome to SOM Components, your premier destination for high-quality tape products with precision cutting services. With a focus on excellence and innovation, we provide tailored solutions to meet the diverse needs of our customers across various industries.</p>
-              <p>Our products include Adhesive Tapes, Industrial Tapes, Specialty Tapes, Custom Tapes - <b> Single Sided Polyester Tape, Kapton Polyimide Tape, Cross Filament Tape, Double Sided Polyster Tape,EPE Foam Sheet. </b> </p>
+              <p>Our products include Adhesive Tapes, Industrial Tapes, Specialty Tapes, Custom Tapes - <b> Single Sided Polyester Tape, Kapton Polyimide Tape, Cross Filament Tape, Double Sided Polyster Tape,Double side EVA Foam Tape.</b> </p>
               <p>In addition to our extensive tape product line, we offer precision cutting services to ensure that your tapes are delivered to your exact specifications. Whether you require standard sizes or custom dimensions, our cutting capabilities enable us to meet your cutting needs with precision and efficiency.</p>
               <a href="/about" className="default-btn">More About Us</a>
             </div>
